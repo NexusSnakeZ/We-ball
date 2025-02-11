@@ -1,20 +1,20 @@
 @font-face {
     font-family: japanfont;
-    src: url(Genjiro-JRymx.otf);
+    src: url(../Fonts/Genjiro-JRymx.otf);
 }
 
 @font-face {
     font-family: futurefont;
-    src: url(Stifly.ttf);
+    src: url(../Fonts/Stifly.ttf);
 }
 @font-face {
     font-family: techysaba;
-    src: url(SAIBA-45.otf);
+    src: url(../Fonts/SAIBA-45.otf);
 }
 
 @font-face {
     font-family: Tingle;
-    src: url(tingle_tuner.otf);
+    src: url(../Fonts/tingle_tuner.otf);
 }
 
 h1{
@@ -39,6 +39,19 @@ header p{
 body{
     background-color: #f2f2f4;
 }       
+
+.bg {
+    /* The image used */
+    background-image: url("https://i.pinimg.com/originals/54/f8/13/54f81331a9da88c623b96363fb0a4da1.gif");
+    
+    
+    height: 100%; 
+    
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }  
 
 nav li {
    

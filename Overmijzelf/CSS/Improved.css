@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Personafont;
+    src: url(Expose-Regular.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Personafont;
+}
+
+/* navigation bar */
+body{
+    background-color: #f2f2f4;
+}       
+
+nav li {
+   
+    list-style: none;
+    display: inline-block;
+}
+
+nav a{ 
+    display: block;
+    padding: 8px;
+    align-self: center;
+    text-decoration: none;
+    color: #888a90; 
+    
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav button{
+    border:none;
+    padding: 5px;
+    margin: auto;
+    background-color:#6c8093;   
+    
+    
+}
+.button{
+    transition: color 0.4s linear;
+    position: relative;
+}
+.button :hover {
+color: #b41e0d;
+}
+
+/* Q&A code */
+
+
+body {
+    background-color: #2f241e;
+}
+p {
+    color: #b41e0d;
+    font-size: x-large;
+}
+
+.QuestionsAnswers{
+    max-width: 75%;
+    margin: auto;
+}
+.QuestionsAnswers > p,
+.QuestionsAnswers > h1{
+    margin:1.5rem 0;
+    text-align: center;
+}
+
+.Questionsanswers > h1 {
+    letter-spacing: 3px; 
+}
+
+.something {
+    background-color: white;
+    color: rgba(0,0,0,0.8);
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.something i {
+    font-size: 1.6rem;
+}
+
+.active,
+.something:hover {
+    background-color: #f1f7f5;
+}
+.alotofwords {
+    padding: 0 18px;
+    background-color: white;
+    display:none;
+    overflow: hidden;
+    background-color:#f1f7f5;
+    padding: 0 2rem 2.5rem 2rem
+} 
+.alotofwords p {
+    color: rgba(0,0,0,0.7);
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.QuestionsAnswers{
+    border: 1px solid rgba(0,0,0,0.1);
+    margin: 10px 0;
+}
+.QuestionsAnswers.active{
+    border: none;
+
+}

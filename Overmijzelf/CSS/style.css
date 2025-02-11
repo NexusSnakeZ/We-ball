@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Breathofzelda;
+    src: url(TheWildBreathOfZelda-15Lv.ttf);
+}
+
+@font-face {
+    font-family: Minishcap;
+    src: url(minishcap__v10.otf)
+}
+
+@font-face {
+    font-family: Tingle;
+    src: url(tingle_tuner.otf);
+}
+
+  body{
+    background-color: #141d22;
+   
+}  
+
+h1{
+    font-family: Breathofzelda;
+    color: #c0e4e1; 
+    text-shadow: 5px 5px 5px #6c8093;
+}
+h2{
+    font-family: Minishcap;
+    color: white;
+    text-shadow: 5px 5px 5px #6c8093;
+}
+header p{
+    font-family: Tingle;
+    color: white;
+    text-shadow: 5px 5px 5px #6c8093;
+}
+p{
+    font-family: Tingle;
+    text-shadow: 5px 5px 5px black;
+    color: #3e1a83 
+}
+
+nav li {
+   
+    list-style: none;
+    display: inline-block;
+}
+
+nav a{ 
+    display: block;
+    padding: 8px;
+    align-self: center;
+    text-decoration: none;
+    /* color: #6c8093; */
+    font-family: Minishcap;
+    font-size: x-large;
+    
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav button{
+    border: none;
+    padding: 5px;
+    margin: auto;
+    background-color:#6c8093
+    
+    
+}
+.button{
+    transition: color 0.4s linear;
+    position: relative;
+}
+.button :hover {
+color: #ecb6cc;
+}
+
+body ul{
+    font-family: Tingle;
+    color: white;
+}
+
+xmp{
+    color: green;
+    margin: auto;
+    text-align: center;
+}
